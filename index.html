@@ -1,16 +1,151 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Halaman Alifia</title>
-</head>
-<body>
-<h1>Tentang Saya</h1>
-<p>Hai, nama saya Alifia Azzahra. Lahir di Bogor pada 29 Mei 2001. Saat ini saya anak ke-3 dari 4 bersaudara. Inilah sekilas tentang saya.</p>
-<h2>Pendidikan</h2>
-<p>Aku bersekolah di <strong>Sekolah Menengah Kejuruan SMAK Bogor</strong> dengan jurusan <em>Analis Kimia</em>.</p>
-<h2>Hobby</h2>
-<p>Saat kecil aku sangat suka bermain sepeda, berenang, dan bermain. Tapi semakin besar saya mulai jarang melakukan hal-hal tersebut, selain karena banyak tugas yang menumpuk sehingga kurangnya waktu untuk bermain. Saat ini kegiatan yang sedang saya sukai adalah menulis, membaca novel dan menonton drama korea. Entah itu cerita roman picisan kalangan remaja micin, atau hanya sekedar berimajinasi tentang idola yang saya sukai. Seperti si doi dibawah ini.</p>
-<img src="img/Taehyung.jpeg" width="300px" height="250px">
-<p>Ini adalah jodoh masa depan saya hahaha...</p>
-</body>
-</html>
+<title>Alifia's Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="img/fotoprofil.JPEG" style="width:100%">
+  <a href="#Profile" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Profile</p>
+  </a>
+  <a href="#Hobby" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>Hobby</p>
+  </a>
+  <a href="#Favorite" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Favorite</p>
+  </a>
+  <a href="#Photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>Photos</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#Profile" class="w3-bar-item w3-button" style="width:25% !important">Profile</a>
+    <a href="#Hobby" class="w3-bar-item w3-button" style="width:25% !important">Hobby</a>
+    <a href="#Favorite" class="w3-bar-item w3-button" style="width:25% !important">Favorite</a>
+    <a href="#Photos" class="w3-bar-item w3-button" style="width:25% !important">Photos</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="Profile">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Alifia Azzahra.</h1>
+    <img src="img/fotoprofil.JPEG" width="300" height="400">
+    <strong><p>Be your self.</p></strong>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="Profile">
+    <strong><h2 class="w3-text-light-grey">My Profile</h2></strong>
+    <hr style="width:175px" class="w3-opacity">
+    <p>Hello, namaku Alifia Azzahra. Aku adalah seorang remaja perempuan yang lahir di Bogor pada 29 Mei 2001. Aku anak ke-3 dari 4 bersaudara. Saat ini aku tinggal bersama kedua orangtua dan saudara perempuanku. Alamatnya di Jl. Veteran III Desa Banjarwaru Kecamatan Ciawi Kabupaten Bogor. </p>
+    <strong><h3 class="w3-padding-16 w3-text-light-grey">My Education</h3></strong>
+    <strong><p class="w3-wide">SDN Banjarawaru 01</p></strong>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:3px"></div>
+    </div>
+    <p>Sebenarnya aku adalah murid pindahan. Aku bersekolah disana sejak kelas 4 SD. Dulu sebelum pindah sekolah, aku bersekolah di SDN Cikaret 01. Karena kedua orangtuaku pindah rumah, jadi aku pun harus ikut mereka dan pindah sekolah. Sejujurnya aku rindu dengan teman-teman lamaku.</p>
+    <strong><p class="w3-wide">SMP Negeri 1 Ciawi</p></strong>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:3px"></div>
+    </div>
+    <p>Masa-masa SMP sangat berkesan bagiku. Masa itu adalah masa dimana aku menemukan banyak teman, berkenalan dengan banyak orang, dan juga merasakan indahnya persahabatan.</p>
+    <strong><p class="w3-wide">SMK SMAK Bogor</p></strong>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:3px"></div>
+    </div>
+    <p>Ini adalah sekolahku saat ini. Sekolah Menengah Kejuruan Analis Kimia Bogor atau dikenal sebagai <strong>SMAKBO</strong> adalah sekolah dengan waktu empat tahun. Mungkin aku adalah salah satu orang yang merasa beruntung karena bisa masuk ke sekolah yang diminati oleh banyak orang. Harapanku adalah aku bisa lulus dengan nilai yang baik.</p><br>
+    
+    <!-- Testimonials -->
+    <br>
+    <hr style="width:1000px height:25px" class="w3-opacity">
+    <br>
+    <strong><h2 class="w3-text-light-grey">My Hobby</h2></strong>
+    <hr style="width:200px" class="w3-opacity">
+    <Br>
+    <p><span class="w3-large w3-margin-right"><strong>1. Membaca Novel atau Cerita Wattpad</strong></p>
+    <p>Aku melakukan hobi ini sejak kelas 1 SMP. Saat itu temanku sangat senang menulis cerita dan sempat mempublishnya di <em>Wattpad</em>. Sejak saat itula aku menemukan banyak cerita remaja yang seru dan membuatku terbawa suasana saat membacanya. Karena banyak cerita yang dihapus dari Wattpad untuk kepentingan penerbitan menjadi sebuah novel menyebabkan aku yang sangat kepo dengan akhir dari cerita itu pun akhirnya membeli novel. Nah, dari sanalah aku mengetahui beberapa penulis terkenal yang novelnya selalu menjadi <em>Best-Seller</em>. Salah satu penulis yang aku sukai adalah <strong>Tere Liye</strong>. </p>
+    <center><img src="img/Alifia11.jpg" width="250px"></center><br>
+    
+    <p><span class="w3-large w3-margin-right"> <strong>2. Menonton film</strong></p>
+    <p>Selain hobi membaca novel, aku juga hobi menonton film jika ada waktu luang. Genre yang paling ku sukai adalah romance, action, atau fantasi. Salah satu film yang aku sukai adalah <strong>The Maze Runner</strong>. Selain film, aku juga sangat hobi menonton drama korea. Bukan hanya karena pemainnya enak untuK dipandang tapi karena ceritanya juga seru. Rekomendasi buat kamu yang suka nonton drakor juga, beberapa drakor yang seru adalah <em>While You Were Sleeping</em>, <em>Moon Lover</em>, <em>School 2017</em>, dan <em>School 2015</em>.</p>
+    <center><i><img src="img/alifia3.JPEG" width="300px"> <p>Anggap aku sebagai Kim So Hyun</p></i></center><br>
+
+    <p><span class="w3-large w3-margin-right"> <strong>3. Main Basket</strong></p>
+    <p>Kalau hobi ini sudah aku lakukan sejak kelas 1 SMP, saat itu aku bingung akan mengikuti ekstrakurikuler apa, jadi akhirnya aku mengikuti ekskul basket. Saat kelas 3 SMP aku sempat berhenti untuk main basket karena takut belajarku terganggu. Aku berhenti bermain basket sampai kelas 1 SMK. Tapi sejak porsip tahun 2017 ke II, aku kembali bermain basket. Dulu aku pernah ingin menjadi tinggi seperti Michael Jordan sehingga mudah untuk mencetak point.</p>
+   <center><i> <img src="img/Alifia13.jpg" width="300px"> <p>Aku bersama si dia</p></i></center>
+  <!-- End About Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Favorite</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p><strong>1. <strong>Makanan</strong>: <em>Opor Ayam</em>  dan <em>Rendang</em></strong></p> 
+    <p>Siapa sih yang gak suka sama kedua makanan itu. Kebanyakan orang pasti menyukainya, termasuk aku. Sebenarnya aku pecinta makanan, ya walaupun takut gendut. <em>Tapi selagi enak kenapa nggak</em>. Tapi tetap aja ada makanan yang tidak aku sukai yaitu <em>pete atau jengkol</em>, dan <em>kacang</em></em>.</p>
+    <p><strong>2. <strong>Warna</strong>: <em>Biru langit, Tosca,</em>  dan <em>Peach</em></strong></p>
+    <p>Semua warna itu terkesan kalem dan menenangkan. Tidak seperti warna merah atau kuning yang terlalu cerah.</p>
+    <p><strong>3. Idola</strong></p>
+    <p>Terlalu banyak pria tampan diluar sana yang aku kagumi. Kali ini aku hanya menyebutkan beberapa saja.</p>
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="img/alifia4.JPEG" style="width:250px">
+        <img src="img/Alifia5.jpg" style="width:250px">
+        <img src="" style="width:250px">
+      </div>
+
+      <div class="w3-half">
+        <img src="img/Alifia6.jpg" style="width:250px">
+      </div>
+    <!-- End photo grid -->
+    </div>
+
+   <hr style="width:1000px height:25px" class="w3-opacity">
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">About My Friends</h2>
+    <hr style="width:325px" class="w3-opacity">
+    <p>Mereka adalah beberapa orang yang Allah kirim untuk membuat hari-hariku menjadi lebih berwarna.</p>
+    <div class="w3-row-padding">
+  <div class="w3-col s4"><img src="img/alifia2.jpg" width="250px"></div>
+  <div class="w3-col s4"><img src="img/Alifia7.jpg" width="250px"></div>
+  <div class="w3-col s4"><img src="img/Alifia8.jpg" width="250px"></div>
+</div>
+<div class="w3-row-padding">
+  <div class="w3-col s4"><img src="img/Alifia9.jpg" width="250px"></div>
+  <div class="w3-col s4"><img src="img/Alifia10.jpg" width="250px"></div>
+  <div class="w3-col s4"><img src="img/Alifia12.jpg" width="250px"></div>
+</div>
+
+    <blockquote class="w3-panel w3-leftbar w3-light-grey">
+  <p class="w3-large">
+  <i>"Good friends only know about best stories in your life, but best friends have lived them with you."</i></p>
+</blockquote>
+    
+
+    <div class="w3-section">
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: alifiazahr@gmail.com</p>
+      <p><i class="fa fa-instagram w3-hover-opacity"></i> Aarhazzaaifila</p></div>
